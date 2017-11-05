@@ -1,0 +1,154 @@
+.board{
+	height: 500px;
+	width: 500px;
+	background-color: #FFCB8C;
+	margin: 5% auto auto auto;
+	border-radius: 30px;
+	box-shadow: 1px 10px 34px 5px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.game{
+	height: 400px;
+	width: 400px;
+    background: radial-gradient(#7A7670, #4C4A46, #363431); 
+    color: #EAE8E5;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+.screen{
+	color: #EAE8E5;
+	text-align: center;
+	opacity: 1;
+}
+#question{
+	padding-top: 30%;
+}
+.player{
+	padding-top: 40px;
+	font-size: 1em;
+}
+span:hover{
+	border-style: dotted;
+	border-radius: 50px;
+	cursor: pointer;
+}
+.tic{
+	color: #EAE8E5;
+	font-size: 7em;
+	text-align: center;
+	height: 133.33px;
+}
+.tic:hover{
+	cursor: pointer;
+}
+.col-md-4{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.reset{
+	background-color: #FFCB8D;
+	border-radius: 10px;
+    font-family: 'Indie Flower', cursive;
+    outline: none !important;
+    text-decoration: none !important;
+    font-weight: bold;
+    border-color: #FFCB8C;
+    position: absolute;
+    left: 630px;
+    top: 80px;
+    width: 100px;
+    display:none;
+}
+.reset1{
+	background-color: #FFCB8D;
+	border-radius: 10px;
+    font-family: 'Indie Flower', cursive;
+    outline: none !important;
+    text-decoration: none !important;
+    font-weight: bold;
+    border-color: #FFCB8C;
+    position: absolute;
+    width: 100px;
+    left: 630px;
+    top: 80px;
+}
+.line1{
+	height: 355px;
+	width: 1px;
+	border: 1px solid #EAE8E5;
+	position: absolute;
+	right: 753px;
+	z-index: +1;
+	top: 140px;
+	display: none;
+}
+.line2{
+	height: 355px;
+	width: 1px;
+	border: 1px solid #EAE8E5;
+	position: absolute;
+	right: 609px;
+	z-index: +1;
+	top: 140px;
+	display: none;
+}
+.line3{
+	height: 1px;
+	width: 355px;
+	border: 1px solid #EAE8E5;
+	position: absolute;
+	z-index: +1;
+	top: 252px;
+	left: 500px;
+	display:none;	
+}
+.line4{
+	height: 1px;
+	width: 355px;
+	border: 1px solid #EAE8E5;
+	position: absolute;
+	z-index: +1;
+	top: 387px;
+	left: 500px;
+	display:none;
+}
+.line5{
+	height: 355px;
+	width: 1px;
+	border: 1px solid #EAE8E5;
+	position: absolute;
+	right: 753px;
+	z-index: +1;
+	top: 140px;
+}
+.line6{
+	height: 355px;
+	width: 1px;
+	border: 1px solid #EAE8E5;
+	position: absolute;
+	right: 609px;
+	z-index: +1;
+	top: 140px;
+}
+.line7{
+	height: 1px;
+	width: 355px;
+	border: 1px solid #EAE8E5;
+	position: absolute;
+	z-index: +1;
+	top: 252px;
+	left: 500px;	
+}
+.line8{
+	height: 1px;
+	width: 355px;
+	border: 1px solid #EAE8E5;
+	position: absolute;
+	z-index: +1;
+	top: 387px;
+	left: 500px;
+}
